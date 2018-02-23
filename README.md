@@ -9,4 +9,6 @@ v1.2 - UDP server that handles the flow of data from a ground station device to 
 
 groundApp.js serves to initialize the server from the ground station and open the ground station software. 
 
+UDPDeviceTest.java serves as an arbitrary udp device on the network, it sends a packet to the specified address on the specified port and waits for a response on that port. Used for testing over local and wide networks. 
+
 
