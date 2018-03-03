@@ -9,7 +9,9 @@ v1.2 - UDP server that handles the flow of data from a ground station device to 
 
 v1.3 - UDP server that handles the transfer of sender's IP's and ports to enable UDP hole punching.
 
-groundApp.js serves to initialize the server from the ground station and open the ground station software. 
+groundApp.js serves to initialize the connection to the server from the ground station and open the ground station software. 
+
+droneApp.js serves to initialize the connection from the drone to the ground station software, through the server.
 
 UDPDeviceTest.java serves as an arbitrary udp device on the network, it sends a packet to the specified address on the specified port and waits for a response on that port. Used for testing over local and wide networks. 
 
