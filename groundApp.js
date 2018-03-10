@@ -13,8 +13,8 @@ var sleep = require('sleep');
 var socket = datagram.createSocket('udp4');
 
 serverPORT = 14000;
-const PORT = 14553;
-const serverIP = '52.14.152.228';
+const PORT = 14550;
+const serverIP = '18.222.93.70';
 const message  = "LTEControlledDrone";
 
 socket.bind(PORT);
